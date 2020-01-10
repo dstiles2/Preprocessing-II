@@ -168,20 +168,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.navigation {
+header .navigation {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   padding-top: 4%;
   padding-bottom: 3%;
   border-bottom: 2px dashed #C0C0C0;
 }
-.navigation nav {
-  border: 2px solid black;
-  justify-content: space-evenly;
+header .navigation nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 45%;
 }
-.navigation nav a {
+header .navigation nav a {
   color: #212529;
   font-size: 1.6rem;
   text-decoration: none;

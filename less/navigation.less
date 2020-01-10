@@ -1,20 +1,25 @@
-.navigation {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding-top: 4%;
-    padding-bottom: 3%;
-    border-bottom: 2px dashed @navigation-border;
+header {
 
-    nav {
-        border: 2px solid black;
-        justify-content: space-evenly;
-        width: 45%;
 
-        a {
-            color: @font-color;
-            font-size: 1.6rem;
-            text-decoration: none;
+    .navigation {
+        display: flex;
+        
+        justify-content: space-between;
+        padding-top: 4%;
+        padding-bottom: 3%;
+        border-bottom: 2px dashed @navigation-border;
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 45%;
+
+            a {
+                color: @font-color;
+                font-size: 1.6rem;
+                text-decoration: none;
+            }
         }
     }
 }
